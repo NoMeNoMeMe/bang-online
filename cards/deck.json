@@ -1,0 +1,280 @@
+[
+    {
+        "type": "bronze",
+        "cards": {
+            "BANG!": {
+                "amount": 29
+            },
+            "Pudło": {
+                "amount": 13
+            },
+            "Panika": {
+                "amount": 5
+            },
+            "Piwko": {
+                "amount": 8
+            },
+            "Kasia Balou": {
+                "amount": 5
+            },
+            "Sklep": {
+                "amount": 3
+            },
+            "Pojedynek": {
+                "amount": 3
+            },
+            "Unik": {
+                "amount": 2
+            },
+            "Dyliżans": {
+                "amount": 2
+            },
+            "Wells fargo": {
+                "amount": 1
+            },
+            "Indianie": {
+                "amount": 2
+            },
+            "Ragtime": {
+                "amount": 1
+            },
+            "Whiskey": {
+                "amount": 1
+            },
+            "Saloon": {
+                "amount": 1
+            },
+            "Cios": {
+                "amount": 1
+            },
+            "Bójka": {
+                "amount": 1
+            },
+            "Gatling": {
+                "amount": 1
+            },
+            "Tequila": {
+                "amount": 1
+            },
+            "Springfield": {
+                "amount": 1
+            }
+        }
+    },
+    {
+        "type": "blue",
+        "cards": {
+            "Baryłka": {
+                "amount": 3
+            },
+            "Więzienie": {
+                "amount": 3
+            },
+            "Mustang": {
+                "amount": 3
+            },
+            "Luneta": {
+                "amount": 1
+            },
+            "Lornetka": {
+                "amount": 1
+            },
+            "Kryjówka": {
+                "amount": 1
+            },
+            "Dynamit": {
+                "amount": 2
+            },
+            "Weapons": {
+                "Volcanic": {
+                    "amount": 2
+                },
+                "Schofield": {
+                    "amount": 3
+                },
+                "Remington": {
+                    "amount": 2
+                },
+                "Rev. Carabine": {
+                    "amount": 2
+                },
+                "Winchester": {
+                    "amount": 1
+                }
+            }
+        }
+    },
+    {
+        "type": "green",
+        "cards": {
+            "Pieprzniczka": {
+                "amount": 1
+            },
+            "Nóż": {
+                "amount": 1
+            },
+            "Howitzer": {
+                "amount": 1
+            },
+            "Sombrero": {
+                "amount": 1
+            },
+            "Wóz": {
+                "amount": 1
+            },
+            "Derringer": {
+                "amount": 1
+            },
+            "Metalowa płyta": {
+                "amount": 2
+            },
+            "Strzelba na bizony": {
+                "amount": 1
+            },
+            "Kankan": {
+                "amount": 1
+            },
+            "Pony express": {
+                "amount": 1
+            },
+            "Biblia": {
+                "amount": 1
+            },
+            "Kapelusz": {
+                "amount": 1
+            },
+            "Manierka": {
+                "amount": 1
+            }
+        }
+    },
+    {
+        "type": "characters",
+        "cards": {
+            "Apache Kid": {
+                "health": 3,
+                "description": "Karty kier nagrywane przez innych graczy nie działają na ciebie"
+            },
+            "Suzy Lafayette": {
+                "health": 4,
+                "description": "Kiedy zabraknie jej kart na ręce dobiera kartę z talii"
+            },
+            "Gregg Digger": {
+                "health": 4,
+                "description": "Za każdym razem kiedy inny gracz zostanie wyeliminowany odzyskujesz dwa punkty życia"
+            },
+            "Slab Zabójca": {
+                "health": 4,
+                "description": "Inni gracze potrzebują dwóch kart pudła aby anulować każdy zagrany przez niego BANG!"
+            },
+            "Vera Custer": {
+                "health": 3,
+                "description": "Przez całą turę możesz używać umiejętności innej postaci w grze"
+            },
+            "Pixie Pete": {
+                "health": 3,
+                "description": "Dobierasz trzy karty zamiast dwóch"
+            },
+            "Kit Carlson": {
+                "health": 4,
+                "description": "Przy dobieraniu kart ogląda trzy górne karty i zachowuje dwie z nich"
+            },
+            "Belle Star": {
+                "health": 4,
+                "description": "W trakcie twojej tury karty innych graczy pozostające w grze nie mają efektu"
+            },
+            "Jose' Delgado": {
+                "health": 4,
+                "description": "Dwa razy na turę możesz odrzucić niebieską kartę z ręki aby dobrać dwie karty"
+            },
+            "Pat Brennan": {
+                "health": 4,
+                "description": "Zamiast dobierać kart z talii możesz dobrać pojedynczą kartę która leży przed innym graczem"
+            },
+            "Bart Cassidy": {
+                "health": 4,
+                "description": "Za każdym razem gdy Bart zostaje trafiony dobiera kartę"
+            },
+            "Jourdonnais": {
+                "health": 4,
+                "description": "Jeżeli odkryję kier podczas pokera unika trafienia (działa jak efekt baryłki)"
+            },
+            "El Gringo": {
+                "health": 3,
+                "description": "Za każdym razem gdy zostaje trafiony przez gracza zabiera mu losową kartę z ręki"
+            },
+            "Pedro Ramirez": {
+                "health": 4,
+                "description": "Może wybrać wierzchnią kartę ze stosu kart odrzuconych, zamiast pierwszej z dobieranych kart"
+            },
+            "Sid Ketchum": {
+                "health": 4,
+                "description": "Może odrzucić dwie karty z ręki, aby odzyskać punkt żywotności"
+            },
+            "Chuck Wengam": {
+                "health": 4,
+                "description": " W swojej turze, możesz stracić jeden punkt życia, aby dobrać dwie karty"
+            },
+            "Black Jack": {
+                "health": 4,
+                "description": "Pokazuje drugą kartę, którą dobrał. Jeśli jest to Kier lub Karo dobiera kolejną kartę"
+            },
+            "Molly Stark": {
+                "health": 4,
+                "description": "Za każdym razem, kiedy zagrywasz kartę poza swoją turą, dobierasz kartę"
+            },
+            "Sam Sęp": {
+                "health": 4,
+                "description": "Otrzymuje karty wyeliminowanego gracza. dobiera wszystkie na rękę"
+            },
+            "Paul Regret": {
+                "health": 3,
+                "description": "Zasięg pomiędzy nim a innymi graczami zostaje zwiększony o 1"
+            },
+            "Rose Doolan": {
+                "health": 4,
+                "description": "Widzi wszystkich graczy w zasięgu obniżonym o 1"
+            },
+            "Lucky Duke": {
+                "health": 4,
+                "description": "Przy pokerze!, odkrywa dwie karty i wybiera tę, która mu bardziej odpowiada"
+            },
+            "Willy The Kid": {
+                "halth": 4,
+                "description": "Może zagrać dowolną liczbę kart BANG! w swojej turze"
+            },
+            "Tequila Joe": {
+                "health": 4,
+                "description": "Odzyskujesz dwa punkty życia zamiast jednego za każde piwo"
+            },
+            "Doc Holiday": {
+                "health": 4,
+                "description": "W swojej turze możesz raz odrzucić dwie karty z ręki, aby uzyskać BANG!."
+            },
+            "Bill Beztwarzy": {
+                "health": 4,
+                "description": "Dobierasz jedną kartę, plus jedną kartę za każdą ranę, którą otrzymałeś"
+            },
+            "Elena Fuente": {
+                "health": 3,
+                "description": "Możesz używać dowolnej karty jako Pudło!"
+            },
+            "Here Hunter": {
+                "health": 4,
+                "description": "Za każdym razem kiedy inny gracz zostanie wyeliminowany, dobierasz dwie karty"
+            },
+            "Sean Mallory": {
+                "health": 3,
+                "description": "Możesz mieć do 10 kart w ręku"
+            },
+            "Calamity Janet": {
+                "health": 4,
+                "description": "Możesz używać kart BANG! oraz Pudło! i na odwrót"
+            },
+            "Jasse Jones": {
+                "health": 4,
+                "description": "Pierwszą dobieraną kartę może wziąć z ręki dowolnego gracza"
+            }
+        }
+    }
+]
