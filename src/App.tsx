@@ -20,22 +20,28 @@ function App() {
   );
 
   const [isXTurn, setIsXTurn] = useState<boolean>(true);
+  const [turnNumber, setTurnNumber] = useState<number>(1);
 
   function handleClick(index: number) {
-    const newBoard = [...board];
-    newBoard[index] = isXTurn ? 'x' : 'o';
-    setIsXTurn(!isXTurn);
-    setBoard(newBoard);
+    if (board[index] === '-') {
+      const newBoard = [...board];
+      newBoard[index] = isXTurn ? 'x' : 'o';
+      setTurnNumber(turnNumber+1)
+      setIsXTurn(!isXTurn);
+      setBoard(newBoard);
+    }
   }
 
   function handleClear() {
     setIsXTurn(true);
     setBoard(['-','-','-','-','-','-','-','-','-']);
+    setTurnNumber(1);
   }
 
   return (
     <div className="App">
       <Container>
+        <p>Players turn: {isXTurn ? 'x' : 'o'}</p>
         <Row>
           <Block onClick={() => handleClick(0)}>{board[0] !== "-" && board[0]}</Block>
           <Block onClick={() => handleClick(1)}>{board[1] !== "-" && board[1]}</Block>
