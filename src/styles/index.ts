@@ -1,32 +1,30 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 `
 
 export const Row = styled.div`
-    display: flex;
+  display: flex;
 `
 
 export const Block = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border: solid 1px black;
-    cursor: pointer;
-    transition: 0.3s;
+  align-items: center;
+  border: solid 1px black;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  transition: 0.3s;
+  width: 50px;
 
-    &:hover {
-        background-color: lightgray;
-    }
+  &:hover {
+    background-color: lightgray;
+  }
 `
 
 export const Button = styled.button`
-    width: 150px;
-    justify-content: center;
-    align-items: center;
+  width: 156px;
 `

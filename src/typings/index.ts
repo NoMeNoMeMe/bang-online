@@ -1,0 +1,15 @@
+export type BLOCK = SYMBOL | null
+export type SYMBOL = 'X' | 'O'
+
+export interface Room {
+  board: Array<SYMBOL | null>
+  isGameDone: boolean
+  message: string
+  playerTurn: SYMBOL
+  startingTurn: SYMBOL
+  turnNumber: number
+}
+
+export interface RoomId {
+  roomId: string
+}

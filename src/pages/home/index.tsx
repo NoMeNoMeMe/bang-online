@@ -1,19 +1,19 @@
-import React, { FC } from "react";
-import { useHistory } from "react-router-dom";
+import React, { FC } from 'react'
+import { useHistory } from 'react-router-dom'
 
-const Home: FC = () =>{
-    const history = useHistory();
+const Home: FC = () => {
+  const history = useHistory()
 
-    function handleClick() {
-        history.push('/room/AAAA')
-    }
+  function handleClick() {
+    history.push('/room/AAAA')
+  }
 
-    return (
-        <div>
-            <h1>Home Page</h1>
-            <button onClick={handleClick}>Go to game room</button>
-        </div>
-    );
+  return (
+    <>
+      <h1>Home Page</h1>
+      <button onClick={handleClick}>Go to Game Room</button>
+    </>
+  )
 }
 
-export default Home;
+export default Home
