@@ -1,16 +1,16 @@
 import React from 'react'
 
 import { Block, Button, Container, Row } from './styles'
-import { useMarkBoard, useClearBoard, useRoom } from 'hooks'
+import { useMarkBoardBang, useClearBoardBang, useRoomBang } from 'hooks'
 
 export type SYMBOL = 'x' | 'o'
 export type BLOCK = SYMBOL | '-'
 
 
-const Room = () => {
-  const { isMarking, markBoard } = useMarkBoard()
-  const { isFetching, room } = useRoom()
-  const { isClearing, clearBoard } = useClearBoard()
+const Bangroom = () => {
+  const { isMarking, markBoard } = useMarkBoardBang()
+  const { isFetching, room } = useRoomBang()
+  const { isClearing, clearBoard } = useClearBoardBang()
 
   if (isFetching) return <h1>Loading Room...</h1>
   if (!room) return <h1>Room Not Found</h1>
@@ -66,4 +66,4 @@ const Room = () => {
   )
 }
 
-export default Room
+export default Bangroom
